@@ -1,40 +1,31 @@
----
-whiskers:
-  version: "^2.5.1"
-  matrix:
-    - flavor
-    - accent
-  filename: "themes/{{ flavor.identifier }}/{{ flavor.identifier }}-{{ accent }}.css"
-  hex_format: "#{{r}}{{g}}{{b}}"
----
 :root {
-	--background-primary: {{ mantle.hex }};
-	--background-secondary: {{ base.hex }};
-	--background-secondary-lighter: {{ base.hex }};
-	--background-secondary-alt: {{ surface0.hex }};
-	--background-tertiary: {{ mantle.hex }};
+	--background-primary: #e6e9ef;
+	--background-secondary: #eff1f5;
+	--background-secondary-lighter: #eff1f5;
+	--background-secondary-alt: #ccd0da;
+	--background-tertiary: #e6e9ef;
 	--background-channel-header: hsl(220, calc(13% * var(--saturation-factor)), 16.85%);
 	--guild-list-foreground: hsl(220, calc(13% * var(--saturation-factor)), 17.93%);
 	--background-header-secondary: hsl(220, calc(13% * var(--saturation-factor)), 20.75%);
 	--background-header-primary: hsl(220, calc(13% * var(--saturation-factor)), 20.75%);
-	--background-textarea: {{ mantle.hex }};
+	--background-textarea: #e6e9ef;
 	--background-header-primary-hover: hsl(220, calc(13% * var(--saturation-factor)), 25.53%);
 	--text-tertiary-secondary: hsl(220, calc(13% * var(--saturation-factor)), 52%);
 	--text-tertiary-muted: hsl(220, calc(13% * var(--saturation-factor)), 55.52%);
-	--text-tertiary: {{ subtext0.hex }};
-	--text-primary-muted: {{ overlay2.hex }};
-	--text-chat-muted: {{ overlay2.hex }};
-	--text-secondary: {{ subtext1.hex }};
-	--text-chat: {{ text.hex }};
-	--text-primary: {{ text.hex }};
-	--panel-control-bg: {{ mantle.hex }};
-	--panel-control-border: {{ overlay1.hex }};
-	--panel-control-divider: {{ overlay0.hex }};
-	--panel-control-highlight: {{ overlay0.hex }};
-	--background-modifier-hover: {{ surface0.hex }};
-	--background-modifier-selected: {{ base.hex }};
-	--background-modifier-accent: {{ surface0.hex }};
-	--background-modifier-accent-focus: {{ surface1.hex }};
+	--text-tertiary: #6c6f85;
+	--text-primary-muted: #7c7f93;
+	--text-chat-muted: #7c7f93;
+	--text-secondary: #5c5f77;
+	--text-chat: #4c4f69;
+	--text-primary: #4c4f69;
+	--panel-control-bg: #e6e9ef;
+	--panel-control-border: #8c8fa1;
+	--panel-control-divider: #9ca0b0;
+	--panel-control-highlight: #9ca0b0;
+	--background-modifier-hover: #ccd0da;
+	--background-modifier-selected: #eff1f5;
+	--background-modifier-accent: #ccd0da;
+	--background-modifier-accent-focus: #bcc0cc;
 	--control-button-normal-bg: transparent;
 	--control-button-normal-text: var(--text-primary-muted);
 	--control-button-hover-bg: hsl(220, calc(13% * var(--saturation-factor)), 22%);
@@ -43,15 +34,15 @@ whiskers:
 	--control-button-active-text: var(--text-primary);
 	--control-button-danger-text: hsl(1, calc(77% * var(--saturation-factor)), 60%);
 	--control-button-danger-hover-bg: hsl(1, calc(77% * var(--saturation-factor)), 20%);
-	--brand-primary: {{ flavor.colors[accent].hex }};
-	--brand-secondary: {{ flavor.colors[accent].hex }};
-	--brand-primary-light: {{ pink.hex }};
-	--brand-primary-fill: {{ base.hex }};
-	--status-online: {{ green.hex }};
-	--status-idle: {{ yellow.hex }};
-	--status-dnd: {{ maroon.hex }};
-	--status-offline: {{ overlay1.hex }};
-	--status-danger: {{ red.hex }};
+	--brand-primary: #d20f39;
+	--brand-secondary: #d20f39;
+	--brand-primary-light: #ea76cb;
+	--brand-primary-fill: #eff1f5;
+	--status-online: #40a02b;
+	--status-idle: #df8e1d;
+	--status-dnd: #e64553;
+	--status-offline: #8c8fa1;
+	--status-danger: #d20f39;
 	--status-warning: var(--status-idle);
 	--text-warning: hsl(45, calc(93% * var(--saturation-factor)), 55%);
 	--plutonium: var(--brand-primary);
@@ -59,8 +50,8 @@ whiskers:
 	--plutonium-text: var(--text-on-brand-primary);
 	--plutonium-icon: hsl(38, calc(92% * var(--saturation-factor)), 50%);
 	--invite-verified-icon-color: var(--text-on-brand-primary);
-	--text-link: {{ blue.hex }};
-	--text-on-brand-primary: {{ base.hex }};
+	--text-link: #1e66f5;
+	--text-on-brand-primary: #eff1f5;
 	--text-code: hsl(340, calc(50% * var(--saturation-factor)), 90%);
 	--text-selection: hsla(210, calc(90% * var(--saturation-factor)), 70%, 0.35);
 	--markup-mention-text: var(--text-link);
@@ -92,8 +83,8 @@ whiskers:
 	--button-danger-outline-active-fill: hsl(359, calc(65% * var(--saturation-factor)), 48%);
 	--button-danger-outline-active-border: transparent;
 	--button-ghost-text: hsl(0, 0%, 100%);
-	--button-inverted-fill: {{ base.hex }};
-	--button-inverted-text: {{ text.hex }};
+	--button-inverted-fill: #eff1f5;
+	--button-inverted-text: #4c4f69;
 	--button-outline-border: 1px solid hsla(0, 0%, 100%, 0.3);
 	--button-outline-text: hsl(0, 0%, 100%);
 	--button-outline-active-fill: hsla(0, 0%, 100%, 0.15);
@@ -111,20 +102,20 @@ whiskers:
 	--bg-table-header: var(--background-tertiary);
 	--bg-table-row-odd: var(--background-primary);
 	--bg-table-row-even: var(--background-secondary);
-	--border-color: {{ surface0.hex }};
-	--border-color-hover: {{ surface1.hex }};
-	--border-color-focus: {{ flavor.colors[accent].hex }};
+	--border-color: #ccd0da;
+	--border-color-hover: #bcc0cc;
+	--border-color-focus: #d20f39;
 	--accent-primary: var(--brand-primary);
 	--accent-success: var(--status-online);
 	--accent-warning: var(--status-idle);
 	--accent-danger: var(--status-dnd);
 	--accent-info: var(--text-link);
-	--accent-purple: {{ mauve.hex }};
-	--alert-note-color: {{ sky.hex }};
-	--alert-tip-color: {{ green.hex }};
-	--alert-important-color: {{ mauve.hex }};
-	--alert-warning-color: {{ peach.hex }};
-	--alert-caution-color: {{ maroon.hex }};
+	--accent-purple: #8839ef;
+	--alert-note-color: #04a5e5;
+	--alert-tip-color: #40a02b;
+	--alert-important-color: #8839ef;
+	--alert-warning-color: #fe640b;
+	--alert-caution-color: #e64553;
 	--shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.1);
 	--shadow-md: 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.1);
 	--shadow-lg: 0 4px 8px rgba(0, 0, 0, 0.15), 0 2px 4px rgba(0, 0, 0, 0.1);
