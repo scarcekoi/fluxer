@@ -1,0 +1,9 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/{{ flavor.identifier }}-{{ accent }}.css"
+  hex_format: "#{{r}}{{g}}{{b}}"
+---
