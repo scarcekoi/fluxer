@@ -43,6 +43,14 @@
 5. Copy the content of the CSS from from `themes/<flavor>/<flavor>-<accent>.css` and paste it into the **Custom CSS Overrides** box.
 6. Enjoy!
 
+### Overrides
+
+To override the light brand colour (currently pink), clone this repository and run:
+```
+whiskers fluxer.tera --overrides '{"brand_primary_light": "<colour>"}'
+```
+But replace `<colour>` with the desired colour you wish to replace it with.
+
 ## 💝 Thanks to
 
 - [Scarce Koi](https://github.com/scarcekoi)

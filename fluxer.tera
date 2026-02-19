@@ -6,6 +6,7 @@ whiskers:
     - accent
   filename: "themes/{{ flavor.identifier }}/{{ flavor.identifier }}-{{ accent }}.css"
   hex_format: "#{{r}}{{g}}{{b}}"
+brand_primary_light: "pink"
 ---
 :root {
 	--background-primary: {{ mantle.hex }};
@@ -45,7 +46,7 @@ whiskers:
 	--control-button-danger-hover-bg: hsl(1, calc(77% * var(--saturation-factor)), 20%);
 	--brand-primary: {{ flavor.colors[accent].hex }};
 	--brand-secondary: {{ flavor.colors[accent].hex }};
-	--brand-primary-light: {{ pink.hex }};
+	--brand-primary-light: {{ flavor.colors[brand_primary_light].hex }};
 	--brand-primary-fill: {{ base.hex }};
 	--status-online: {{ green.hex }};
 	--status-idle: {{ yellow.hex }};
