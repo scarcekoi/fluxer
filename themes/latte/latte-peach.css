@@ -32,7 +32,7 @@
 	--control-button-hover-text: var(--text-primary);
 	--control-button-active-bg: hsl(220, calc(13% * var(--saturation-factor)), 24%);
 	--control-button-active-text: var(--text-primary);
-	--control-button-danger-text: hsl(1, calc(77% * var(--saturation-factor)), 60%);
+	--control-button-danger-text: #d20f39;
 	--control-button-danger-hover-bg: hsl(1, calc(77% * var(--saturation-factor)), 20%);
 	--brand-primary: #fe640b;
 	--brand-secondary: #fe640b;

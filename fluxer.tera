@@ -42,7 +42,7 @@ brand_primary_light: "pink"
 	--control-button-hover-text: var(--text-primary);
 	--control-button-active-bg: hsl(220, calc(13% * var(--saturation-factor)), 24%);
 	--control-button-active-text: var(--text-primary);
-	--control-button-danger-text: hsl(1, calc(77% * var(--saturation-factor)), 60%);
+	--control-button-danger-text: {{ red.hex }};
 	--control-button-danger-hover-bg: hsl(1, calc(77% * var(--saturation-factor)), 20%);
 	--brand-primary: {{ flavor.colors[accent].hex }};
 	--brand-secondary: {{ flavor.colors[accent].hex }};
