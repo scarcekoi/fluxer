@@ -5,7 +5,7 @@
 	--background-secondary-alt: #313244;
 	--background-tertiary: #181825;
 	--background-channel-header: hsl(220, calc(13% * var(--saturation-factor)), 16.85%);
-	--guild-list-foreground: hsl(220, calc(13% * var(--saturation-factor)), 17.93%);
+	--guild-list-foreground: #181825;
 	--background-header-secondary: hsl(220, calc(13% * var(--saturation-factor)), 20.75%);
 	--background-header-primary: hsl(220, calc(13% * var(--saturation-factor)), 20.75%);
 	--background-textarea: #181825;
@@ -75,8 +75,8 @@
 	--button-secondary-active-fill: hsla(0, 0%, 100%, 0.15);
 	--button-secondary-text: hsl(0, 0%, 100%);
 	--button-secondary-active-text: var(--button-secondary-text);
-	--button-danger-fill: hsl(359, calc(70% * var(--saturation-factor)), 54%);
-	--button-danger-active-fill: hsl(359, calc(65% * var(--saturation-factor)), 45%);
+	--button-danger-fill: #eba0ac;
+	--button-danger-active-fill: #f38ba8;
 	--button-danger-text: hsl(0, 0%, 100%);
 	--button-danger-outline-border: 1px solid hsl(359, calc(70% * var(--saturation-factor)), 54%);
 	--button-danger-outline-text: hsl(0, 0%, 100%);
