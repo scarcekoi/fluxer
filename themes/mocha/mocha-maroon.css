@@ -126,3 +126,11 @@
 	--scrollbar-thumb-bg-hover: rgba(121, 122, 124, 0.7);
 	--user-area-divider-color: color-mix(in srgb, var(--background-modifier-hover) 70%, transparent);
 }
+
+[class*="VoiceCallView.module__root___"] {
+  background-color: #11111b;
+}
+
+[class*="MobileDownloadNagbar.module__platformIcon___"] {
+  color: #1e1e2e;
+}
