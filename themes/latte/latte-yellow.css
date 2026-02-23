@@ -1,6 +1,6 @@
 :root {
-	--background-primary: #e6e9ef;
-	--background-secondary: #eff1f5;
+	--background-primary: #dce0e8;
+	--background-secondary: #e6e9ef;
 	--background-secondary-lighter: #eff1f5;
 	--background-secondary-alt: #ccd0da;
 	--background-tertiary: #e6e9ef;
@@ -18,7 +18,7 @@
 	--text-secondary: #5c5f77;
 	--text-chat: #4c4f69;
 	--text-primary: #4c4f69;
-	--panel-control-bg: #e6e9ef;
+	--panel-control-bg: #dce0e8;
 	--panel-control-border: #8c8fa1;
 	--panel-control-divider: #9ca0b0;
 	--panel-control-highlight: #9ca0b0;

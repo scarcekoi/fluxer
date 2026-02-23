@@ -1,6 +1,6 @@
 :root {
-	--background-primary: #181825;
-	--background-secondary: #1e1e2e;
+	--background-primary: #11111b;
+	--background-secondary: #181825;
 	--background-secondary-lighter: #1e1e2e;
 	--background-secondary-alt: #313244;
 	--background-tertiary: #181825;
@@ -18,7 +18,7 @@
 	--text-secondary: #bac2de;
 	--text-chat: #cdd6f4;
 	--text-primary: #cdd6f4;
-	--panel-control-bg: #181825;
+	--panel-control-bg: #11111b;
 	--panel-control-border: #7f849c;
 	--panel-control-divider: #6c7086;
 	--panel-control-highlight: #6c7086;

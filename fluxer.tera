@@ -9,8 +9,8 @@ whiskers:
 brand_primary_light: "pink"
 ---
 :root {
-	--background-primary: {{ mantle.hex }};
-	--background-secondary: {{ base.hex }};
+	--background-primary: {{ crust.hex }};
+	--background-secondary: {{ mantle.hex }};
 	--background-secondary-lighter: {{ base.hex }};
 	--background-secondary-alt: {{ surface0.hex }};
 	--background-tertiary: {{ mantle.hex }};
@@ -24,11 +24,11 @@ brand_primary_light: "pink"
 	--text-tertiary-muted: hsl(220, calc(13% * var(--saturation-factor)), 55.52%);
 	--text-tertiary: {{ subtext0.hex }};
 	--text-primary-muted: {{ overlay2.hex }};
-	--text-chat-muted: {{ overlay2.hex }};
+	--text-chat-muted: {{ overlay2.hex }};s
 	--text-secondary: {{ subtext1.hex }};
 	--text-chat: {{ text.hex }};
 	--text-primary: {{ text.hex }};
-	--panel-control-bg: {{ mantle.hex }};
+	--panel-control-bg: {{ crust.hex }};
 	--panel-control-border: {{ overlay1.hex }};
 	--panel-control-divider: {{ overlay0.hex }};
 	--panel-control-highlight: {{ overlay0.hex }};
