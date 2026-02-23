@@ -4,17 +4,17 @@
 	--background-secondary-lighter: #eff1f5;
 	--background-secondary-alt: #ccd0da;
 	--background-tertiary: #e6e9ef;
-	--background-channel-header: hsl(220, calc(13% * var(--saturation-factor)), 16.85%);
+	--background-channel-header: hsl(220, 13%, 16.85%);
 	--guild-list-foreground: #e6e9ef;
-	--background-header-secondary: hsl(220, calc(13% * var(--saturation-factor)), 20.75%);
-	--background-header-primary: hsl(220, calc(13% * var(--saturation-factor)), 20.75%);
+	--background-header-secondary: hsl(220, 13%, 20.75%);
+	--background-header-primary: hsl(220, 13%, 20.75%);
 	--background-textarea: #e6e9ef;
-	--background-header-primary-hover: hsl(220, calc(13% * var(--saturation-factor)), 25.53%);
-	--text-tertiary-secondary: hsl(220, calc(13% * var(--saturation-factor)), 52%);
-	--text-tertiary-muted: hsl(220, calc(13% * var(--saturation-factor)), 55.52%);
+	--background-header-primary-hover: hsl(220, 13%, 25.53%);
+	--text-tertiary-secondary: hsl(220, 13%, 52%);
+	--text-tertiary-muted: hsl(220, 13%, 55.52%);
 	--text-tertiary: #6c6f85;
 	--text-primary-muted: #7c7f93;
-	--text-chat-muted: #7c7f93;
+	--text-chat-muted: #7c7f93;s
 	--text-secondary: #5c5f77;
 	--text-chat: #4c4f69;
 	--text-primary: #4c4f69;
@@ -28,12 +28,12 @@
 	--background-modifier-accent-focus: #bcc0cc;
 	--control-button-normal-bg: transparent;
 	--control-button-normal-text: var(--text-primary-muted);
-	--control-button-hover-bg: hsl(220, calc(13% * var(--saturation-factor)), 22%);
+	--control-button-hover-bg: hsl(220, 13%, 22%);
 	--control-button-hover-text: var(--text-primary);
-	--control-button-active-bg: hsl(220, calc(13% * var(--saturation-factor)), 24%);
+	--control-button-active-bg: hsl(220, 13%, 24%);
 	--control-button-active-text: var(--text-primary);
 	--control-button-danger-text: #d20f39;
-	--control-button-danger-hover-bg: hsl(1, calc(77% * var(--saturation-factor)), 20%);
+	--control-button-danger-hover-bg: hsl(1, 77%, 20%);
 	--brand-primary: #04a5e5;
 	--brand-secondary: #04a5e5;
 	--brand-primary-light: #ea76cb;
@@ -44,16 +44,16 @@
 	--status-offline: #8c8fa1;
 	--status-danger: #d20f39;
 	--status-warning: var(--status-idle);
-	--text-warning: hsl(45, calc(93% * var(--saturation-factor)), 55%);
+	--text-warning: hsl(45, 93%, 55%);
 	--plutonium: var(--brand-primary);
 	--plutonium-hover: var(--brand-secondary);
 	--plutonium-text: var(--text-on-brand-primary);
-	--plutonium-icon: hsl(38, calc(92% * var(--saturation-factor)), 50%);
+	--plutonium-icon: hsl(38, 92%, 50%);
 	--invite-verified-icon-color: var(--text-on-brand-primary);
 	--text-link: #1e66f5;
 	--text-on-brand-primary: #eff1f5;
-	--text-code: hsl(340, calc(50% * var(--saturation-factor)), 90%);
-	--text-selection: hsla(210, calc(90% * var(--saturation-factor)), 70%, 0.35);
+	--text-code: hsl(340, 50%, 90%);
+	--text-selection: hsla(210, 90%, 70%, 0.35);
 	--markup-mention-text: var(--text-link);
 	--markup-mention-fill: color-mix(in srgb, var(--text-link) 20%, transparent);
 	--markup-mention-border: hsla(210, calc(100% * var(--saturation-factor)), 70%, 0.3);
@@ -63,9 +63,9 @@
 	--markup-everyone-text: hsl(250, calc(80% * var(--saturation-factor)), 75%);
 	--markup-everyone-fill: color-mix(in srgb, hsl(250, calc(80% * var(--saturation-factor)), 75%) 18%, transparent);
 	--markup-everyone-border: hsla(250, calc(80% * var(--saturation-factor)), 75%, 0.3);
-	--markup-here-text: hsl(45, calc(90% * var(--saturation-factor)), 70%);
-	--markup-here-fill: color-mix(in srgb, hsl(45, calc(90% * var(--saturation-factor)), 70%) 18%, transparent);
-	--markup-here-border: hsla(45, calc(90% * var(--saturation-factor)), 70%, 0.3);
+	--markup-here-text: hsl(45, 90%, 70%);
+	--markup-here-fill: color-mix(in srgb, hsl(45, 90%, 70%) 18%, transparent);
+	--markup-here-border: hsla(45, 90%, 70%, 0.3);
 	--markup-interactive-hover-text: var(--text-link);
 	--markup-interactive-hover-fill: color-mix(in srgb, var(--text-link) 30%, transparent);
 	--button-primary-fill: hsl(139, calc(55% * var(--saturation-factor)), 44%);
@@ -96,7 +96,7 @@
 	--bg-tertiary: var(--background-tertiary);
 	--bg-hover: var(--background-modifier-hover);
 	--bg-active: var(--background-modifier-selected);
-	--bg-code: hsla(220, calc(13% * var(--saturation-factor)), 15%, 0.8);
+	--bg-code: hsla(220, 13%, 15%, 0.8);
 	--bg-code-block: var(--background-secondary-alt);
 	--bg-blockquote: var(--background-secondary-alt);
 	--bg-table-header: var(--background-tertiary);
@@ -125,6 +125,7 @@
 	--scrollbar-thumb-bg: rgba(121, 122, 124, 0.4);
 	--scrollbar-thumb-bg-hover: rgba(121, 122, 124, 0.7);
 	--user-area-divider-color: color-mix(in srgb, var(--background-modifier-hover) 70%, transparent);
+	--focus-primary: @sky;
 }
 
 [class*="VoiceCallView.module__root___"] {
