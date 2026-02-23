@@ -5,7 +5,7 @@
 	--background-secondary-alt: #363a4f;
 	--background-tertiary: #1e2030;
 	--background-channel-header: hsl(220, 13%, 16.85%);
-	--guild-list-foreground: #1e2030;
+	--guild-list-foreground: #24273a;
 	--background-header-secondary: hsl(220, 13%, 20.75%);
 	--background-header-primary: hsl(220, 13%, 20.75%);
 	--background-textarea: #1e2030;
@@ -27,11 +27,8 @@
 	--background-modifier-accent: #363a4f;
 	--background-modifier-accent-focus: #494d64;
 	--control-button-normal-bg: transparent;
-	--control-button-normal-text: var(--text-primary-muted);
 	--control-button-hover-bg: hsl(220, 13%, 22%);
-	--control-button-hover-text: var(--text-primary);
 	--control-button-active-bg: hsl(220, 13%, 24%);
-	--control-button-active-text: var(--text-primary);
 	--control-button-danger-text: #ed8796;
 	--control-button-danger-hover-bg: hsl(1, 77%, 20%);
 	--brand-primary: #8aadf4;
@@ -43,45 +40,31 @@
 	--status-dnd: #ee99a0;
 	--status-offline: #8087a2;
 	--status-danger: #ed8796;
-	--status-warning: var(--status-idle);
 	--text-warning: hsl(45, 93%, 55%);
-	--plutonium: var(--brand-primary);
-	--plutonium-hover: var(--brand-secondary);
-	--plutonium-text: var(--text-on-brand-primary);
 	--plutonium-icon: hsl(38, 92%, 50%);
-	--invite-verified-icon-color: var(--text-on-brand-primary);
 	--text-link: #8aadf4;
 	--text-on-brand-primary: #24273a;
 	--text-code: hsl(340, 50%, 90%);
 	--text-selection: hsla(210, 90%, 70%, 0.35);
-	--markup-mention-text: var(--text-link);
-	--markup-mention-fill: color-mix(in srgb, var(--text-link) 20%, transparent);
 	--markup-mention-border: hsla(210, calc(100% * var(--saturation-factor)), 70%, 0.3);
-	--markup-jump-link-text: var(--text-link);
-	--markup-jump-link-fill: color-mix(in srgb, var(--text-link) 12%, transparent);
-	--markup-jump-link-hover-fill: color-mix(in srgb, var(--text-link) 20%, transparent);
 	--markup-everyone-text: hsl(250, calc(80% * var(--saturation-factor)), 75%);
 	--markup-everyone-fill: color-mix(in srgb, hsl(250, calc(80% * var(--saturation-factor)), 75%) 18%, transparent);
 	--markup-everyone-border: hsla(250, calc(80% * var(--saturation-factor)), 75%, 0.3);
 	--markup-here-text: hsl(45, 90%, 70%);
 	--markup-here-fill: color-mix(in srgb, hsl(45, 90%, 70%) 18%, transparent);
 	--markup-here-border: hsla(45, 90%, 70%, 0.3);
-	--markup-interactive-hover-text: var(--text-link);
-	--markup-interactive-hover-fill: color-mix(in srgb, var(--text-link) 30%, transparent);
 	--button-primary-fill: hsl(139, calc(55% * var(--saturation-factor)), 44%);
 	--button-primary-active-fill: hsl(136, calc(60% * var(--saturation-factor)), 38%);
 	--button-primary-text: hsl(0, 0%, 100%);
 	--button-secondary-fill: hsla(0, 0%, 100%, 0.1);
 	--button-secondary-active-fill: hsla(0, 0%, 100%, 0.15);
 	--button-secondary-text: hsl(0, 0%, 100%);
-	--button-secondary-active-text: var(--button-secondary-text);
 	--button-danger-fill: #ee99a0;
 	--button-danger-active-fill: #ed8796;
-	--button-danger-text: hsl(0, 0%, 100%);
-	--button-danger-outline-border: 1px solid hsl(359, calc(70% * var(--saturation-factor)), 54%);
+	--button-danger-text: #24273a;
+	--button-danger-outline-border: 1px solid hsl(359, 70%, 54%);
 	--button-danger-outline-text: hsl(0, 0%, 100%);
-	--button-danger-outline-active-fill: hsl(359, calc(65% * var(--saturation-factor)), 48%);
-	--button-danger-outline-active-border: transparent;
+	--button-danger-outline-active-fill: hsl(359, 65%, 48%);
 	--button-ghost-text: hsl(0, 0%, 100%);
 	--button-inverted-fill: #24273a;
 	--button-inverted-text: #cad3f5;
@@ -89,27 +72,10 @@
 	--button-outline-text: hsl(0, 0%, 100%);
 	--button-outline-active-fill: hsla(0, 0%, 100%, 0.15);
 	--button-outline-active-border: 1px solid hsla(0, 0%, 100%, 0.4);
-	--theme-border: transparent;
-	--theme-border-width: 0px;
-	--bg-primary: var(--background-primary);
-	--bg-secondary: var(--background-secondary);
-	--bg-tertiary: var(--background-tertiary);
-	--bg-hover: var(--background-modifier-hover);
-	--bg-active: var(--background-modifier-selected);
 	--bg-code: hsla(220, 13%, 15%, 0.8);
-	--bg-code-block: var(--background-secondary-alt);
-	--bg-blockquote: var(--background-secondary-alt);
-	--bg-table-header: var(--background-tertiary);
-	--bg-table-row-odd: var(--background-primary);
-	--bg-table-row-even: var(--background-secondary);
 	--border-color: #363a4f;
 	--border-color-hover: #494d64;
 	--border-color-focus: #8aadf4;
-	--accent-primary: var(--brand-primary);
-	--accent-success: var(--status-online);
-	--accent-warning: var(--status-idle);
-	--accent-danger: var(--status-dnd);
-	--accent-info: var(--text-link);
 	--accent-purple: #c6a0f6;
 	--alert-note-color: #91d7e3;
 	--alert-tip-color: #a6da95;
@@ -124,14 +90,13 @@
 	--spoiler-overlay-hover-color: rgba(0, 0, 0, 0.3);
 	--scrollbar-thumb-bg: rgba(121, 122, 124, 0.4);
 	--scrollbar-thumb-bg-hover: rgba(121, 122, 124, 0.7);
-	--user-area-divider-color: color-mix(in srgb, var(--background-modifier-hover) 70%, transparent);
-	--focus-primary: @sky;
+	--focus-primary: #91d7e3;
 }
 
 [class*="VoiceCallView.module__root___"] {
   background-color: #181926;
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon___"] {
+[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"] {
   color: #24273a;
 }
