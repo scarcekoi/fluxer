@@ -5,7 +5,7 @@ whiskers:
     - flavor
     - accent
   filename: "themes/{{ flavor.identifier }}/{{ flavor.identifier }}-{{ accent }}.css"
-  hex_format: "#{{r}}{{g}}{{b}}"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 brand_primary_light: "pink"
 ---
 :root {
@@ -13,18 +13,18 @@ brand_primary_light: "pink"
 	--background-secondary: {{ mantle.hex }};
 	--background-secondary-lighter: {{ base.hex }};
 	--background-secondary-alt: {{ surface0.hex }};
-	--background-tertiary: {{ mantle.hex }};
+	--background-tertiary: {{ base.hex }};
 	--background-channel-header: hsl(220, 13%, 16.85%);
 	--guild-list-foreground: {{ base.hex }};
-	--background-header-secondary: hsl(220, 13%, 20.75%);
-	--background-header-primary: hsl(220, 13%, 20.75%);
+	--background-header-secondary: {{ crust.hex }};
+	--background-header-primary: {{ base.hex }};
 	--background-textarea: {{ mantle.hex }};
-	--background-header-primary-hover: hsl(220, 13%, 25.53%);
+	--background-header-primary-hover: {{ surface0.hex }};
 	--text-tertiary-secondary: hsl(220, 13%, 52%);
 	--text-tertiary-muted: hsl(220, 13%, 55.52%);
 	--text-tertiary: {{ subtext0.hex }};
 	--text-primary-muted: {{ overlay2.hex }};
-	--text-chat-muted: {{ overlay2.hex }};s
+	--text-chat-muted: {{ overlay2.hex }};
 	--text-secondary: {{ subtext1.hex }};
 	--text-chat: {{ text.hex }};
 	--text-primary: {{ text.hex }};
@@ -32,7 +32,7 @@ brand_primary_light: "pink"
 	--panel-control-border: {{ overlay1.hex }};
 	--panel-control-divider: {{ overlay0.hex }};
 	--panel-control-highlight: {{ overlay0.hex }};
-	--background-modifier-hover: {{ surface0.hex }};
+	--background-modifier-hover: {{ surface0 | mod(opacity=0.8) | hex }};
 	--background-modifier-selected: {{ base.hex }};
 	--background-modifier-accent: {{ surface0.hex }};
 	--background-modifier-accent-focus: {{ surface1.hex }};
@@ -56,6 +56,7 @@ brand_primary_light: "pink"
 	--text-on-brand-primary: {{ base.hex }};
 	--text-code: hsl(340, 50%, 90%);
 	--text-selection: hsla(210, 90%, 70%, 0.35);
+	--text-feedback-positive: {{ green.hex }};
 	--markup-mention-border: hsla(210, calc(100% * var(--saturation-factor)), 70%, 0.3);
 	--markup-everyone-text: hsl(250, calc(80% * var(--saturation-factor)), 75%);
 	--markup-everyone-fill: color-mix(in srgb, hsl(250, calc(80% * var(--saturation-factor)), 75%) 18%, transparent);
@@ -82,7 +83,8 @@ brand_primary_light: "pink"
 	--button-outline-text: hsl(0, 0%, 100%);
 	--button-outline-active-fill: hsla(0, 0%, 100%, 0.15);
 	--button-outline-active-border: 1px solid hsla(0, 0%, 100%, 0.4);
-	--bg-code: hsla(220, 13%, 15%, 0.8);
+	--bg-code: {{ base.hex }};
+	--bg-code-block: {{ mantle.hex }};
 	--border-color: {{ surface0.hex }};
 	--border-color-hover: {{ surface1.hex }};
 	--border-color-focus: {{ flavor.colors[accent].hex }};
@@ -109,4 +111,12 @@ brand_primary_light: "pink"
 
 [class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"] {
   color: {{ base.hex }};
+}
+
+[class*="RadioGroup.module__group___"] {
+  --radio-dot-fill: {{ base.hex }};
+}
+
+[class*="Switch.module__switchThumb___"] {
+  background-color: {{ base.hex }};
 }

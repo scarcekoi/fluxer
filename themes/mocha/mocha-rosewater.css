@@ -3,18 +3,18 @@
 	--background-secondary: #181825;
 	--background-secondary-lighter: #1e1e2e;
 	--background-secondary-alt: #313244;
-	--background-tertiary: #181825;
+	--background-tertiary: #1e1e2e;
 	--background-channel-header: hsl(220, 13%, 16.85%);
 	--guild-list-foreground: #1e1e2e;
-	--background-header-secondary: hsl(220, 13%, 20.75%);
-	--background-header-primary: hsl(220, 13%, 20.75%);
+	--background-header-secondary: #11111b;
+	--background-header-primary: #1e1e2e;
 	--background-textarea: #181825;
-	--background-header-primary-hover: hsl(220, 13%, 25.53%);
+	--background-header-primary-hover: #313244;
 	--text-tertiary-secondary: hsl(220, 13%, 52%);
 	--text-tertiary-muted: hsl(220, 13%, 55.52%);
 	--text-tertiary: #a6adc8;
 	--text-primary-muted: #9399b2;
-	--text-chat-muted: #9399b2;s
+	--text-chat-muted: #9399b2;
 	--text-secondary: #bac2de;
 	--text-chat: #cdd6f4;
 	--text-primary: #cdd6f4;
@@ -22,7 +22,7 @@
 	--panel-control-border: #7f849c;
 	--panel-control-divider: #6c7086;
 	--panel-control-highlight: #6c7086;
-	--background-modifier-hover: #313244;
+	--background-modifier-hover: #313244cc;
 	--background-modifier-selected: #1e1e2e;
 	--background-modifier-accent: #313244;
 	--background-modifier-accent-focus: #45475a;
@@ -46,6 +46,7 @@
 	--text-on-brand-primary: #1e1e2e;
 	--text-code: hsl(340, 50%, 90%);
 	--text-selection: hsla(210, 90%, 70%, 0.35);
+	--text-feedback-positive: #a6e3a1;
 	--markup-mention-border: hsla(210, calc(100% * var(--saturation-factor)), 70%, 0.3);
 	--markup-everyone-text: hsl(250, calc(80% * var(--saturation-factor)), 75%);
 	--markup-everyone-fill: color-mix(in srgb, hsl(250, calc(80% * var(--saturation-factor)), 75%) 18%, transparent);
@@ -72,7 +73,8 @@
 	--button-outline-text: hsl(0, 0%, 100%);
 	--button-outline-active-fill: hsla(0, 0%, 100%, 0.15);
 	--button-outline-active-border: 1px solid hsla(0, 0%, 100%, 0.4);
-	--bg-code: hsla(220, 13%, 15%, 0.8);
+	--bg-code: #1e1e2e;
+	--bg-code-block: #181825;
 	--border-color: #313244;
 	--border-color-hover: #45475a;
 	--border-color-focus: #f5e0dc;
@@ -99,4 +101,12 @@
 
 [class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"] {
   color: #1e1e2e;
+}
+
+[class*="RadioGroup.module__group___"] {
+  --radio-dot-fill: #1e1e2e;
+}
+
+[class*="Switch.module__switchThumb___"] {
+  background-color: #1e1e2e;
 }
