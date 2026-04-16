@@ -99,7 +99,7 @@
   background-color: #11111b;
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"] {
+[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"], [class*="Messages.module__newMessagesBarText___"], [class*="Messages.module__newMessagesBarAction___"] {
   color: #1e1e2e;
 }
 
@@ -114,4 +114,9 @@
 [class*="NativeTitlebar.module__closeButton___"]:hover {
   background-color: #f38ba8;
   color: #1e1e2e;
+}
+
+[class*="ScrollIndicatorOverlay.module__indicator___"], [class*="ScrollIndicatorOverlay.module__indicatorBrand___"] {
+  background-color: #313244;
+  color: #cdd6f4;
 }

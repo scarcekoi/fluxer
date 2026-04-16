@@ -109,7 +109,7 @@ brand_primary_light: "pink"
   background-color: {{ crust.hex }};
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"] {
+[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"], [class*="Messages.module__newMessagesBarText___"], [class*="Messages.module__newMessagesBarAction___"] {
   color: {{ base.hex }};
 }
 
@@ -124,4 +124,9 @@ brand_primary_light: "pink"
 [class*="NativeTitlebar.module__closeButton___"]:hover {
   background-color: {{ red.hex }};
   color: {{ base.hex }};
+}
+
+[class*="ScrollIndicatorOverlay.module__indicator___"], [class*="ScrollIndicatorOverlay.module__indicatorBrand___"] {
+  background-color: {{ surface0.hex }};
+  color: {{ text.hex }};
 }
