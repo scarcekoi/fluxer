@@ -110,3 +110,8 @@
 [class*="Switch.module__switchThumb___"] {
   background-color: #eff1f5;
 }
+
+[class*="NativeTitlebar.module__closeButton___"]:hover {
+  background-color: #d20f39;
+  color: #eff1f5;
+}

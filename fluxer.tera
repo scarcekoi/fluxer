@@ -120,3 +120,8 @@ brand_primary_light: "pink"
 [class*="Switch.module__switchThumb___"] {
   background-color: {{ base.hex }};
 }
+
+[class*="NativeTitlebar.module__closeButton___"]:hover {
+  background-color: {{ red.hex }};
+  color: {{ base.hex }};
+}
