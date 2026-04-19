@@ -95,6 +95,83 @@
 	--focus-primary: #89dceb;
 }
 
+/* Code */
+
+.hljs {
+  color: #bac2de;
+  background: #0d1117;
+}
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+  color: #f38ba8;
+}
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+  color: #cba6f7;
+}
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id {
+  color: #89b4fa;
+}
+.hljs-regexp,
+.hljs-string,
+.hljs-meta .hljs-string {
+  color: #89dceb;
+}
+.hljs-built_in,
+.hljs-symbol {
+  color: #fab387;
+}
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
+  color: #9399b2;
+}
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
+  color: #a6e3a1;
+}
+.hljs-subst {
+  color: #a6adc8;
+}
+.hljs-section {
+  color: #89b4fa;
+}
+.hljs-bullet {
+  color: #f9e2af;
+}
+.hljs-emphasis {
+  color: #a6adc8;
+}
+.hljs-strong {
+  color: #a6adc8;
+}
+.hljs-addition {
+  color: #a6e3a1;
+  background-color: #a6e3a126;
+}
+.hljs-deletion {
+  color: #f38ba8;
+  background-color: #f38ba826;
+}
+
 [class*="VoiceCallView.module__root___"] {
   background-color: #11111b;
 }

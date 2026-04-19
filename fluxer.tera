@@ -105,6 +105,83 @@ whiskers:
 	--focus-primary: {{ sky.hex }};
 }
 
+/* Code */
+
+.hljs {
+  color: {{ subtext1.hex }};
+  background: #0d1117;
+}
+.hljs-doctag,
+.hljs-keyword,
+.hljs-meta .hljs-keyword,
+.hljs-template-tag,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable.language_ {
+  color: {{ red.hex }};
+}
+.hljs-title,
+.hljs-title.class_,
+.hljs-title.class_.inherited__,
+.hljs-title.function_ {
+  color: {{ mauve.hex }};
+}
+.hljs-attr,
+.hljs-attribute,
+.hljs-literal,
+.hljs-meta,
+.hljs-number,
+.hljs-operator,
+.hljs-variable,
+.hljs-selector-attr,
+.hljs-selector-class,
+.hljs-selector-id {
+  color: {{ blue.hex }};
+}
+.hljs-regexp,
+.hljs-string,
+.hljs-meta .hljs-string {
+  color: {{ sky.hex }};
+}
+.hljs-built_in,
+.hljs-symbol {
+  color: {{ peach.hex }};
+}
+.hljs-comment,
+.hljs-code,
+.hljs-formula {
+  color: {{ overlay2.hex }};
+}
+.hljs-name,
+.hljs-quote,
+.hljs-selector-tag,
+.hljs-selector-pseudo {
+  color: {{ green.hex }};
+}
+.hljs-subst {
+  color: {{ subtext0.hex }};
+}
+.hljs-section {
+  color: {{ blue.hex }};
+}
+.hljs-bullet {
+  color: {{ yellow.hex }};
+}
+.hljs-emphasis {
+  color: {{ subtext0.hex }};
+}
+.hljs-strong {
+  color: {{ subtext0.hex }};
+}
+.hljs-addition {
+  color: {{ green.hex }};
+  background-color: {{ green | mod(opacity=0.15) | hex }};
+}
+.hljs-deletion {
+  color: {{ red.hex }};
+  background-color: {{ red | mod(opacity=0.15) | hex }};
+}
+
 [class*="VoiceCallView.module__root___"] {
   background-color: {{ crust.hex }};
 }
