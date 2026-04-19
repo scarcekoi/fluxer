@@ -99,7 +99,7 @@
 
 .hljs {
   color: #5c5f77;
-  background: #0d1117;
+  background: #dce0e8;
 }
 .hljs-doctag,
 .hljs-keyword,
@@ -176,7 +176,15 @@
   background-color: #dce0e8;
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon"], [class*="Divider.module__unreadBadge"], [class*="Messages.module__newMessagesBarText"], [class*="Messages.module__newMessagesBarAction"], [class*="ToggleButton.module__active"], [class^="PricingCard.module__cardPricePopular"], [class^="PricingCard.module__cardTitlePopular"], [class^="PricingCard.module__cardPeriodPopular"], [class^="PricingCard.module__badge"] {
+[class*="MobileDownloadNagbar.module__platformIcon"],
+[class*="Divider.module__unreadBadge"],
+[class*="Messages.module__newMessagesBarText"],
+[class*="Messages.module__newMessagesBarAction"],
+[class*="ToggleButton.module__active"],
+[class^="PricingCard.module__cardPricePopular"],
+[class^="PricingCard.module__cardTitlePopular"],
+[class^="PricingCard.module__cardPeriodPopular"],
+[class^="PricingCard.module__badge"] {
   color: #eff1f5;
 }
 
@@ -184,7 +192,8 @@
   --radio-dot-fill: #eff1f5;
 }
 
-[class*="Switch.module__switchThumb"], [class^="PricingCard.module__popularBadge"] {
+[class*="Switch.module__switchThumb"],
+[class^="PricingCard.module__popularBadge"] {
   background-color: #eff1f5;
 }
 
@@ -193,7 +202,8 @@
   color: #eff1f5;
 }
 
-[class*="ScrollIndicatorOverlay.module__indicator"], [class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
+[class*="ScrollIndicatorOverlay.module__indicator"],
+[class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
   background-color: #ccd0da;
   color: #4c4f69;
 }

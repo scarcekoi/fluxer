@@ -109,7 +109,7 @@ whiskers:
 
 .hljs {
   color: {{ subtext1.hex }};
-  background: #0d1117;
+  background: {{ crust.hex }};
 }
 .hljs-doctag,
 .hljs-keyword,
@@ -186,7 +186,15 @@ whiskers:
   background-color: {{ crust.hex }};
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon"], [class*="Divider.module__unreadBadge"], [class*="Messages.module__newMessagesBarText"], [class*="Messages.module__newMessagesBarAction"], [class*="ToggleButton.module__active"], [class^="PricingCard.module__cardPricePopular"], [class^="PricingCard.module__cardTitlePopular"], [class^="PricingCard.module__cardPeriodPopular"], [class^="PricingCard.module__badge"] {
+[class*="MobileDownloadNagbar.module__platformIcon"],
+[class*="Divider.module__unreadBadge"],
+[class*="Messages.module__newMessagesBarText"],
+[class*="Messages.module__newMessagesBarAction"],
+[class*="ToggleButton.module__active"],
+[class^="PricingCard.module__cardPricePopular"],
+[class^="PricingCard.module__cardTitlePopular"],
+[class^="PricingCard.module__cardPeriodPopular"],
+[class^="PricingCard.module__badge"] {
   color: {{ base.hex }};
 }
 
@@ -194,7 +202,8 @@ whiskers:
   --radio-dot-fill: {{ base.hex }};
 }
 
-[class*="Switch.module__switchThumb"], [class^="PricingCard.module__popularBadge"] {
+[class*="Switch.module__switchThumb"],
+[class^="PricingCard.module__popularBadge"] {
   background-color: {{ base.hex }};
 }
 
@@ -203,7 +212,8 @@ whiskers:
   color: {{ base.hex }};
 }
 
-[class*="ScrollIndicatorOverlay.module__indicator"], [class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
+[class*="ScrollIndicatorOverlay.module__indicator"],
+[class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
   background-color: {{ surface0.hex }};
   color: {{ text.hex }};
 }
