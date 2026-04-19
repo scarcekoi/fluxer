@@ -182,28 +182,36 @@ whiskers:
   background-color: {{ red | mod(opacity=0.15) | hex }};
 }
 
-[class*="VoiceCallView.module__root___"] {
+[class*="VoiceCallView.module__root"] {
   background-color: {{ crust.hex }};
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"], [class*="Messages.module__newMessagesBarText___"], [class*="Messages.module__newMessagesBarAction___"] {
+[class*="MobileDownloadNagbar.module__platformIcon"], [class*="Divider.module__unreadBadge"], [class*="Messages.module__newMessagesBarText"], [class*="Messages.module__newMessagesBarAction"], [class*="ToggleButton.module__active"], [class^="PricingCard.module__cardPricePopular"], [class^="PricingCard.module__cardTitlePopular"], [class^="PricingCard.module__cardPeriodPopular"], [class^="PricingCard.module__badge"] {
   color: {{ base.hex }};
 }
 
-[class*="RadioGroup.module__group___"] {
+[class*="RadioGroup.module__group"] {
   --radio-dot-fill: {{ base.hex }};
 }
 
-[class*="Switch.module__switchThumb___"] {
+[class*="Switch.module__switchThumb"], [class^="PricingCard.module__popularBadge"] {
   background-color: {{ base.hex }};
 }
 
-[class*="NativeTitlebar.module__closeButton___"]:hover {
+[class*="NativeTitlebar.module__closeButton"]:hover {
   background-color: {{ red.hex }};
   color: {{ base.hex }};
 }
 
-[class*="ScrollIndicatorOverlay.module__indicator___"], [class*="ScrollIndicatorOverlay.module__indicatorBrand___"] {
+[class*="ScrollIndicatorOverlay.module__indicator"], [class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
   background-color: {{ surface0.hex }};
   color: {{ text.hex }};
+}
+
+[class*="module__clickableItemSelected"] [class*="clickableItemIcon"] {
+  color: {{ base.hex }} !important;
+}
+
+[class^="PlutoniumContent.module__icon"] {
+  color: {{ peach.hex }};
 }

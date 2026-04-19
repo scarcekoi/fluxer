@@ -1,98 +1,98 @@
 :root {
-	--background-primary: #11111b;
-	--background-secondary: #181825;
-	--background-secondary-lighter: #1e1e2e;
-	--background-secondary-alt: #313244;
-	--background-tertiary: #1e1e2e;
-	--background-channel-header: hsl(220, 13%, 16.85%);
-	--guild-list-foreground: #1e1e2e;
-	--background-header-secondary: #11111b;
-	--background-header-primary: #1e1e2e;
-	--background-textarea: #181825;
-	--background-header-primary-hover: #313244;
-	--text-tertiary-secondary: #6c7086;
-	--text-tertiary-muted: #7f849c;
-	--text-tertiary: #a6adc8;
-	--text-primary-muted: #9399b2;
-	--text-chat-muted: #9399b2;
-	--text-secondary: #bac2de;
-	--text-chat: #cdd6f4;
-	--text-primary: #cdd6f4;
-	--panel-control-bg: #11111b;
-	--panel-control-border: #7f849c;
-	--panel-control-divider: #6c7086;
-	--panel-control-highlight: #6c7086;
-	--background-modifier-hover: #313244cc;
-	--background-modifier-selected: #1e1e2e;
-	--background-modifier-accent: #313244;
-	--background-modifier-accent-focus: #45475a;
-	--control-button-normal-bg: transparent;
-	--control-button-hover-bg: hsl(220, 13%, 22%);
-	--control-button-active-bg: hsl(220, 13%, 24%);
-	--control-button-danger-text: #f38ba8;
-	--control-button-danger-hover-bg: hsl(1, 77%, 20%);
-	--brand-primary: #89b4fa;
-	--brand-secondary: #89b4fa;
-	--brand-primary-light: #a3c5fb;
-	--brand-primary-fill: #1e1e2e;
-	--status-online: #a6e3a1;
-	--status-idle: #f9e2af;
-	--status-dnd: #eba0ac;
-	--status-offline: #7f849c;
-	--status-danger: #f38ba8;
-	--text-warning: #f9e2af;
-	--plutonium-icon: #fab387;
-	--text-link: #89b4fa;
-	--text-on-brand-primary: #1e1e2e;
-	--text-code: #bac2de;
-	--text-selection: #9399b259;
-	--text-feedback-positive: #a6e3a1;
-	--markup-mention-border: #585b704d;
-	--markup-everyone-text: #cba6f7;
-	--markup-everyone-fill: #cba6f72e;
-	--markup-everyone-border: #cba6f74d;
-	--markup-here-text: #f9e2af;
-	--markup-here-fill: #f9e2af2e;
-	--markup-here-border: #f9e2af4d;
-	--button-primary-fill: #a6e3a1;
-	--button-primary-active-fill: #94dd8d;
-	--button-primary-text: #cdd6f4;
-	--button-secondary-fill: #cdd6f41a;
-	--button-secondary-active-fill: #cdd6f426;
-	--button-secondary-text: #cdd6f4;
-	--button-danger-fill: #eba0ac;
-	--button-danger-active-fill: #f38ba8;
-	--button-danger-text: #1e1e2e;
-	--button-danger-outline-border: 1px solid #f5a3ba;
-	--button-danger-outline-text: #1e1e2e;
-	--button-danger-outline-active-fill: #f17397;
-	--button-ghost-text: #cdd6f4;
-	--button-inverted-fill: #1e1e2e;
-	--button-inverted-text: #cdd6f4;
-	--button-outline-border: 1px solid #cdd6f44d;
-	--button-outline-text: #cdd6f4;
-	--button-outline-active-fill: #cdd6f426;
-	--button-outline-active-border: 1px solid #cdd6f466;
-	--bg-code: #1e1e2e;
-	--bg-code-block: #181825;
-	--border-color: #313244;
-	--border-color-hover: #45475a;
-	--border-color-focus: #89b4fa;
-	--accent-purple: #cba6f7;
-	--alert-note-color: #89dceb;
-	--alert-tip-color: #a6e3a1;
-	--alert-important-color: #cba6f7;
-	--alert-warning-color: #fab387;
-	--alert-caution-color: #eba0ac;
-	--shadow-sm: 0 1px 2px #11111b1a;
-	--shadow-md: 0 2px 4px #11111b26, 0 1px 2px #11111b1a;
-	--shadow-lg: 0 4px 8px #11111b26, 0 2px 4px #11111b1a;
-	--shadow-xl: 0 10px 20px #11111b26, 0 4px 8px #11111b1a;
-	--spoiler-overlay-color: #11111b33;
-	--spoiler-overlay-hover-color: #11111b4d;
-	--scrollbar-thumb-bg: #6c708666;
-	--scrollbar-thumb-bg-hover: #6c7086b3;
-	--focus-primary: #89dceb;
+  --background-primary: #11111b;
+  --background-secondary: #181825;
+  --background-secondary-lighter: #1e1e2e;
+  --background-secondary-alt: #313244;
+  --background-tertiary: #1e1e2e;
+  --background-channel-header: hsl(220, 13%, 16.85%);
+  --guild-list-foreground: #1e1e2e;
+  --background-header-secondary: #11111b;
+  --background-header-primary: #1e1e2e;
+  --background-textarea: #181825;
+  --background-header-primary-hover: #313244;
+  --text-tertiary-secondary: #6c7086;
+  --text-tertiary-muted: #7f849c;
+  --text-tertiary: #a6adc8;
+  --text-primary-muted: #9399b2;
+  --text-chat-muted: #9399b2;
+  --text-secondary: #bac2de;
+  --text-chat: #cdd6f4;
+  --text-primary: #cdd6f4;
+  --panel-control-bg: #11111b;
+  --panel-control-border: #7f849c;
+  --panel-control-divider: #6c7086;
+  --panel-control-highlight: #6c7086;
+  --background-modifier-hover: #313244cc;
+  --background-modifier-selected: #1e1e2e;
+  --background-modifier-accent: #313244;
+  --background-modifier-accent-focus: #45475a;
+  --control-button-normal-bg: transparent;
+  --control-button-hover-bg: hsl(220, 13%, 22%);
+  --control-button-active-bg: hsl(220, 13%, 24%);
+  --control-button-danger-text: #f38ba8;
+  --control-button-danger-hover-bg: hsl(1, 77%, 20%);
+  --brand-primary: #89b4fa;
+  --brand-secondary: #89b4fa;
+  --brand-primary-light: #a3c5fb;
+  --brand-primary-fill: #1e1e2e;
+  --status-online: #a6e3a1;
+  --status-idle: #f9e2af;
+  --status-dnd: #eba0ac;
+  --status-offline: #7f849c;
+  --status-danger: #f38ba8;
+  --text-warning: #f9e2af;
+  --plutonium-icon: #fab387;
+  --text-link: #89b4fa;
+  --text-on-brand-primary: #1e1e2e;
+  --text-code: #bac2de;
+  --text-selection: #9399b259;
+  --text-feedback-positive: #a6e3a1;
+  --markup-mention-border: #585b704d;
+  --markup-everyone-text: #cba6f7;
+  --markup-everyone-fill: #cba6f72e;
+  --markup-everyone-border: #cba6f74d;
+  --markup-here-text: #f9e2af;
+  --markup-here-fill: #f9e2af2e;
+  --markup-here-border: #f9e2af4d;
+  --button-primary-fill: #a6e3a1;
+  --button-primary-active-fill: #94dd8d;
+  --button-primary-text: #cdd6f4;
+  --button-secondary-fill: #cdd6f41a;
+  --button-secondary-active-fill: #cdd6f426;
+  --button-secondary-text: #cdd6f4;
+  --button-danger-fill: #eba0ac;
+  --button-danger-active-fill: #f38ba8;
+  --button-danger-text: #1e1e2e;
+  --button-danger-outline-border: 1px solid #f5a3ba;
+  --button-danger-outline-text: #1e1e2e;
+  --button-danger-outline-active-fill: #f17397;
+  --button-ghost-text: #cdd6f4;
+  --button-inverted-fill: #1e1e2e;
+  --button-inverted-text: #cdd6f4;
+  --button-outline-border: 1px solid #cdd6f44d;
+  --button-outline-text: #cdd6f4;
+  --button-outline-active-fill: #cdd6f426;
+  --button-outline-active-border: 1px solid #cdd6f466;
+  --bg-code: #1e1e2e;
+  --bg-code-block: #181825;
+  --border-color: #313244;
+  --border-color-hover: #45475a;
+  --border-color-focus: #89b4fa;
+  --accent-purple: #cba6f7;
+  --alert-note-color: #89dceb;
+  --alert-tip-color: #a6e3a1;
+  --alert-important-color: #cba6f7;
+  --alert-warning-color: #fab387;
+  --alert-caution-color: #eba0ac;
+  --shadow-sm: 0 1px 2px #11111b1a;
+  --shadow-md: 0 2px 4px #11111b26, 0 1px 2px #11111b1a;
+  --shadow-lg: 0 4px 8px #11111b26, 0 2px 4px #11111b1a;
+  --shadow-xl: 0 10px 20px #11111b26, 0 4px 8px #11111b1a;
+  --spoiler-overlay-color: #11111b33;
+  --spoiler-overlay-hover-color: #11111b4d;
+  --scrollbar-thumb-bg: #6c708666;
+  --scrollbar-thumb-bg-hover: #6c7086b3;
+  --focus-primary: #89dceb;
 }
 
 /* Code */
@@ -172,28 +172,46 @@
   background-color: #f38ba826;
 }
 
-[class*="VoiceCallView.module__root___"] {
+[class*="VoiceCallView.module__root"] {
   background-color: #11111b;
 }
 
-[class*="MobileDownloadNagbar.module__platformIcon___"], [class*="Divider.module__unreadBadge___"], [class*="Messages.module__newMessagesBarText___"], [class*="Messages.module__newMessagesBarAction___"] {
+[class*="MobileDownloadNagbar.module__platformIcon"],
+[class*="Divider.module__unreadBadge"],
+[class*="Messages.module__newMessagesBarText"],
+[class*="Messages.module__newMessagesBarAction"],
+[class*="ToggleButton.module__active"],
+[class^="PricingCard.module__cardPricePopular"],
+[class^="PricingCard.module__cardTitlePopular"],
+[class^="PricingCard.module__cardPeriodPopular"],
+[class^="PricingCard.module__badge"] {
   color: #1e1e2e;
 }
 
-[class*="RadioGroup.module__group___"] {
+[class*="RadioGroup.module__group"] {
   --radio-dot-fill: #1e1e2e;
 }
 
-[class*="Switch.module__switchThumb___"] {
+[class*="Switch.module__switchThumb"],
+[class^="PricingCard.module__popularBadge"] {
   background-color: #1e1e2e;
 }
 
-[class*="NativeTitlebar.module__closeButton___"]:hover {
+[class*="NativeTitlebar.module__closeButton"]:hover {
   background-color: #f38ba8;
   color: #1e1e2e;
 }
 
-[class*="ScrollIndicatorOverlay.module__indicator___"], [class*="ScrollIndicatorOverlay.module__indicatorBrand___"] {
+[class*="ScrollIndicatorOverlay.module__indicator"],
+[class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
   background-color: #313244;
   color: #cdd6f4;
+}
+
+[class*="module__clickableItemSelected"] [class*="clickableItemIcon"] {
+  color: #1e1e2e !important;
+}
+
+[class^="PlutoniumContent.module__icon"] {
+  color: #fab387;
 }
