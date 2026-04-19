@@ -7,6 +7,7 @@ whiskers:
   filename: "themes/{{ flavor.identifier }}/{{ flavor.identifier }}-{{ accent }}.css"
   hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
+{%- set accent = flavor.colors[accent] -%}
 :root {
 	--background-primary: {{ crust.hex }};
 	--background-secondary: {{ mantle.hex }};
@@ -40,8 +41,8 @@ whiskers:
 	--control-button-active-bg: hsl(220, 13%, 24%);
 	--control-button-danger-text: {{ red.hex }};
 	--control-button-danger-hover-bg: hsl(1, 77%, 20%);
-	--brand-primary: {{ flavor.colors[accent].hex }};
-	--brand-secondary: {{ flavor.colors[accent].hex }};
+	--brand-primary: {{ accent.hex }};
+	--brand-secondary: {{ accent.hex }};
 	--brand-primary-light: {{ accent | add(lightness=5) | hex }};
 	--brand-primary-fill: {{ base.hex }};
 	--status-online: {{ green.hex }};
@@ -86,7 +87,7 @@ whiskers:
 	--bg-code-block: {{ mantle.hex }};
 	--border-color: {{ surface0.hex }};
 	--border-color-hover: {{ surface1.hex }};
-	--border-color-focus: {{ flavor.colors[accent].hex }};
+	--border-color-focus: {{ accent.hex }};
 	--accent-purple: {{ mauve.hex }};
 	--alert-note-color: {{ sky.hex }};
 	--alert-tip-color: {{ green.hex }};
