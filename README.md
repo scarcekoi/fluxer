@@ -43,23 +43,6 @@
 5. Copy the content of the CSS from from `themes/<flavor>/<flavor>-<accent>.css` and paste it into the **Custom CSS Overrides** box.
 6. Enjoy!
 
-### Generating Custom Configurations
-
-The themes included in this repository are generated via [catppuccin/whiskers](https://github.com/catppuccin/whiskers). 
-To learn how to modify the generated themes, follow the instructions listed below:
-
-1. Install [catppuccin/whiskers](https://github.com/catppuccin/whiskers#installation).
-2. Navigate to the root of this respository.
-3. Run `whiskers` with `--overrides` set to a JSON object with your desired options, for example:
-
-    ```bash
-    whiskers fluxer.tera --overrides='{"brand_primary_light": "sky"}'
-    ```
-
-#### Available Settings
-
-- `brand_primary_light`: The light version of the primary brand colour. Defaults to pink.
-
 ## 💝 Thanks to
 
 - [Scarce Koi](https://github.com/scarcekoi)
