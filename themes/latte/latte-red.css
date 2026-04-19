@@ -4,7 +4,7 @@
 	--background-secondary-lighter: #eff1f5;
 	--background-secondary-alt: #ccd0da;
 	--background-tertiary: #eff1f5;
-	--background-channel-header: hsl(220, 13%, 16.85%);
+	--background-channel-header: #e6e9ef;
 	--guild-list-foreground: #eff1f5;
 	--background-header-secondary: #dce0e8;
 	--background-header-primary: #eff1f5;
@@ -27,10 +27,10 @@
 	--background-modifier-accent: #ccd0da;
 	--background-modifier-accent-focus: #bcc0cc;
 	--control-button-normal-bg: transparent;
-	--control-button-hover-bg: hsl(220, 13%, 22%);
-	--control-button-active-bg: hsl(220, 13%, 24%);
+	--control-button-hover-bg: #e6e9ef;
+	--control-button-active-bg: #dce0e8;
 	--control-button-danger-text: #d20f39;
-	--control-button-danger-hover-bg: hsl(1, 77%, 20%);
+	--control-button-danger-hover-bg: #d20f39;
 	--brand-primary: #d20f39;
 	--brand-secondary: #d20f39;
 	--brand-primary-light: #eb1140;

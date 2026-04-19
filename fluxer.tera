@@ -14,7 +14,7 @@ whiskers:
 	--background-secondary-lighter: {{ base.hex }};
 	--background-secondary-alt: {{ surface0.hex }};
 	--background-tertiary: {{ base.hex }};
-	--background-channel-header: hsl(220, 13%, 16.85%);
+	--background-channel-header: {{ mantle.hex }};
 	--guild-list-foreground: {{ base.hex }};
 	--background-header-secondary: {{ crust.hex }};
 	--background-header-primary: {{ base.hex }};
@@ -37,10 +37,10 @@ whiskers:
 	--background-modifier-accent: {{ surface0.hex }};
 	--background-modifier-accent-focus: {{ surface1.hex }};
 	--control-button-normal-bg: transparent;
-	--control-button-hover-bg: hsl(220, 13%, 22%);
-	--control-button-active-bg: hsl(220, 13%, 24%);
+	--control-button-hover-bg: {{ mantle.hex }};
+	--control-button-active-bg: {{ crust.hex }};
 	--control-button-danger-text: {{ red.hex }};
-	--control-button-danger-hover-bg: hsl(1, 77%, 20%);
+	--control-button-danger-hover-bg: {{ red.hex }};
 	--brand-primary: {{ accent.hex }};
 	--brand-secondary: {{ accent.hex }};
 	--brand-primary-light: {{ accent | add(lightness=5) | hex }};
