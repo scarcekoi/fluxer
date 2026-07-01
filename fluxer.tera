@@ -137,6 +137,4 @@ whiskers:
   /* Other */
   --panel-control-divider: {{ overlay0.hex }};
   --panel-control-highlight: {{ overlay0.hex }};
-
-  --text-feedback-positive: {{ green.hex }};
 }
