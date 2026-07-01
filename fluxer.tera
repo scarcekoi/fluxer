@@ -17,98 +17,126 @@ whiskers:
  */
 
 :root {
-  --background-primary: {{ crust.hex }};
-  --background-secondary: {{ mantle.hex }};
-  --background-secondary-lighter: {{ base.hex }};
-  --background-secondary-alt: {{ surface0.hex }};
-  --background-tertiary: {{ base.hex }};
+  /* Surfaces */
   --background-channel-header: {{ mantle.hex }};
-  --guild-list-foreground: {{ base.hex }};
-  --background-header-secondary: {{ crust.hex }};
   --background-header-primary: {{ base.hex }};
-  --background-textarea: {{ mantle.hex }};
   --background-header-primary-hover: {{ surface0.hex }};
-  --text-tertiary-secondary: {{ overlay0.hex }};
-  --text-tertiary-muted: {{ overlay1.hex }};
-  --text-tertiary: {{ subtext0.hex }};
-  --text-primary-muted: {{ overlay2.hex }};
-  --text-chat-muted: {{ overlay2.hex }};
-  --text-secondary: {{ subtext1.hex }};
-  --text-chat: {{ text.hex }};
-  --text-primary: {{ text.hex }};
-  --panel-control-bg: {{ crust.hex }};
-  --panel-control-border: {{ overlay1.hex }};
-  --panel-control-divider: {{ overlay0.hex }};
-  --panel-control-highlight: {{ overlay0.hex }};
+  --background-header-secondary: {{ crust.hex }};
+  --background-modifier-accent: {{ surface0.hex }};
   --background-modifier-hover: {{ surface0 | mod(opacity=0.8) | hex }};
   --background-modifier-selected: {{ base.hex }};
-  --background-modifier-accent: {{ surface0.hex }};
-  --background-modifier-accent-focus: {{ surface1.hex }};
-  --control-button-normal-bg: transparent;
-  --control-button-hover-bg: {{ mantle.hex }};
-  --control-button-active-bg: {{ crust.hex }};
-  --control-button-danger-text: {{ red.hex }};
-  --control-button-danger-hover-bg: {{ red.hex }};
-  --brand-primary: {{ accent.hex }};
-  --brand-secondary: {{ accent.hex }};
-  --brand-primary-light: {{ accent | add(lightness=5) | hex }};
-  --brand-primary-fill: {{ base.hex }};
-  --status-online: {{ green.hex }};
-  --status-idle: {{ yellow.hex }};
-  --status-dnd: {{ maroon.hex }};
-  --status-offline: {{ overlay1.hex }};
-  --status-danger: {{ red.hex }};
-  --text-warning: {{ yellow.hex }};
-  --plutonium-icon: {{ peach.hex }};
+  --background-primary: {{ crust.hex }};
+  --background-secondary: {{ mantle.hex }};
+  --background-secondary-alt: {{ surface0.hex }};
+  --background-secondary-lighter: {{ base.hex }};
+  --background-tertiary: {{ base.hex }};
+  --bg-code: {{ base.hex }};
+  --bg-code-block: {{ mantle.hex }};
+  --guild-list-foreground: {{ base.hex }};
+  --panel-control-bg: {{ crust.hex }};
+
+  /* Text */
+  --text-chat: {{ text.hex }};
+  --text-chat-muted: {{ overlay2.hex }};
   --text-link: {{ blue.hex }};
   --text-on-brand-primary: {{ base.hex }};
-  --text-code: {{ subtext1.hex }};
+  --text-primary: {{ text.hex }};
+  --text-primary-muted: {{ overlay2.hex }};
+  --text-secondary: {{ subtext1.hex }};
   --text-selection: {{ overlay2 | mod(opacity=0.35) | hex }};
-  --text-feedback-positive: {{ green.hex }};
-  --markup-mention-border: {{ surface2 | mod(opacity=0.3) | hex }};
-  --markup-everyone-text: {{ mauve.hex }};
-  --markup-everyone-fill: {{ mauve | mod(opacity=0.18) | hex }};
-  --markup-everyone-border: {{ mauve | mod(opacity=0.3) | hex }};
-  --markup-here-text: {{ yellow.hex }};
-  --markup-here-fill: {{ yellow | mod(opacity=0.18) | hex }};
-  --markup-here-border: {{ yellow | mod(opacity=0.3) | hex }};
-  --button-primary-fill: {{ green.hex }};
-  --button-primary-active-fill: {{ green | sub(lightness=5) | hex }};
-  --button-primary-text: {{ text.hex }};
-  --button-secondary-fill: {{ text | mod(opacity=0.1) | hex }};
-  --button-secondary-active-fill: {{ text | mod(opacity=0.15) | hex }};
-  --button-secondary-text: {{ text.hex }};
-  --button-danger-fill: {{ maroon.hex }};
+  --text-tertiary: {{ subtext0.hex }};
+  --text-tertiary-muted: {{ overlay1.hex }};
+  --text-tertiary-secondary: {{ overlay0.hex }};
+  --text-warning: {{ yellow.hex }};
+
+  /* Brand & Accents */
+  --accent-purple: {{ mauve.hex }};
+  --brand-primary: {{ accent.hex }};
+  --brand-primary-fill: {{ base.hex }};
+  --brand-primary-light: {{ accent | add(lightness=5) | hex }};
+  --brand-secondary: {{ accent.hex }};
+  --plutonium-icon: {{ peach.hex }};
+
+  /* Status Indicators */
+  --status-danger: {{ red.hex }};
+  --status-dnd: {{ maroon.hex }};
+  --status-idle: {{ yellow.hex }};
+  --status-offline: {{ overlay1.hex }};
+  --status-online: {{ green.hex }};
+
+  /* Buttons */
   --button-danger-active-fill: {{ red.hex }};
-  --button-danger-text: {{ base.hex }};
+  --button-danger-fill: {{ maroon.hex }};
+  --button-danger-outline-active-fill: {{ red | sub(lightness=5) | hex }};
   --button-danger-outline-border: 1px solid {{ red | add(lightness=5) | hex }};
   --button-danger-outline-text: {{ base.hex }};
-  --button-danger-outline-active-fill: {{ red | sub(lightness=5) | hex }};
+  --button-danger-text: {{ base.hex }};
   --button-ghost-text: {{ text.hex }};
   --button-inverted-fill: {{ base.hex }};
   --button-inverted-text: {{ text.hex }};
+  --button-outline-active-border: 1px solid {{ text | mod(opacity=0.4) | hex }};
+  --button-outline-active-fill: {{ text | mod(opacity=0.15) | hex }};
   --button-outline-border: 1px solid {{ text | mod(opacity=0.3) | hex }};
   --button-outline-text: {{ text.hex }};
-  --button-outline-active-fill: {{ text | mod(opacity=0.15) | hex }};
-  --button-outline-active-border: 1px solid {{ text | mod(opacity=0.4) | hex }};
-  --bg-code: {{ base.hex }};
-  --bg-code-block: {{ mantle.hex }};
+  --button-primary-active-fill: {{ green | sub(lightness=5) | hex }};
+  --button-primary-fill: {{ green.hex }};
+  --button-primary-text: {{ text.hex }};
+  --button-secondary-active-fill: {{ text | mod(opacity=0.15) | hex }};
+  --button-secondary-fill: {{ text | mod(opacity=0.1) | hex }};
+  --button-secondary-text: {{ text.hex }};
+  --control-button-active-bg: {{ crust.hex }};
+  --control-button-danger-hover-bg: {{ red.hex }};
+  --control-button-danger-text: {{ red.hex }};
+  --control-button-hover-bg: {{ mantle.hex }};
+  --control-button-normal-bg: transparent;
+
+  /* Borders & Focus */
+  --background-modifier-accent-focus: {{ surface1.hex }};
   --border-color: {{ surface0.hex }};
-  --border-color-hover: {{ surface1.hex }};
   --border-color-focus: {{ accent.hex }};
-  --accent-purple: {{ mauve.hex }};
+  --border-color-hover: {{ surface1.hex }};
+  --focus-primary: {{ sky.hex }};
+  --panel-control-border: {{ overlay1.hex }};
+  --shadow-lg: 0 4px 8px {{ crust | mod(opacity=0.15) | hex }}, 0 2px 4px {{ crust | mod(opacity=0.1) | hex }};
+  --shadow-md: 0 2px 4px {{ crust | mod(opacity=0.15) | hex }}, 0 1px 2px {{ crust | mod(opacity=0.1) | hex }};
+  --shadow-sm: 0 1px 2px {{ crust | mod(opacity=0.1) | hex }};
+  --shadow-xl: 0 10px 20px {{ crust | mod(opacity=0.15) | hex }}, 0 4px 8px {{ crust | mod(opacity=0.1) | hex }};
+
+  /* Alerts & Callouts */
+  --alert-caution-color: {{ maroon.hex }};
+  --alert-important-color: {{ mauve.hex }};
   --alert-note-color: {{ sky.hex }};
   --alert-tip-color: {{ green.hex }};
-  --alert-important-color: {{ mauve.hex }};
   --alert-warning-color: {{ peach.hex }};
-  --alert-caution-color: {{ maroon.hex }};
-  --shadow-sm: 0 1px 2px {{ crust | mod(opacity=0.1) | hex }};
-  --shadow-md: 0 2px 4px {{ crust | mod(opacity=0.15) | hex }}, 0 1px 2px {{ crust | mod(opacity=0.1) | hex }};
-  --shadow-lg: 0 4px 8px {{ crust | mod(opacity=0.15) | hex }}, 0 2px 4px {{ crust | mod(opacity=0.1) | hex }};
-  --shadow-xl: 0 10px 20px {{ crust | mod(opacity=0.15) | hex }}, 0 4px 8px {{ crust | mod(opacity=0.1) | hex }};
+
+  /* Markup & Mentions */
+  --markup-everyone-border: {{ mauve | mod(opacity=0.3) | hex }};
+  --markup-everyone-fill: {{ mauve | mod(opacity=0.18) | hex }};
+  --markup-everyone-text: {{ mauve.hex }};
+  --markup-here-border: {{ yellow | mod(opacity=0.3) | hex }};
+  --markup-here-fill: {{ yellow | mod(opacity=0.18) | hex }};
+  --markup-here-text: {{ yellow.hex }};
+  --markup-mention-border: {{ surface2 | mod(opacity=0.3) | hex }};
   --spoiler-overlay-color: {{ crust | mod(opacity=0.2) | hex }};
   --spoiler-overlay-hover-color: {{ crust | mod(opacity=0.3) | hex }};
+
+  /* Code & Terminal */
+  --text-code: {{ subtext1.hex }};
+
+  /* Tables */
+
+  /* Messages */
+
+  /* Forms */
+  --background-textarea: {{ mantle.hex }};
+
+  /* Scrolling */
   --scrollbar-thumb-bg: {{ overlay0 | mod(opacity=0.4) | hex }};
   --scrollbar-thumb-bg-hover: {{ overlay0 | mod(opacity=0.7) | hex }};
-  --focus-primary: {{ sky.hex }};
+
+  /* Other */
+  --panel-control-divider: {{ overlay0.hex }};
+  --panel-control-highlight: {{ overlay0.hex }};
+
+  --text-feedback-positive: {{ green.hex }};
 }
