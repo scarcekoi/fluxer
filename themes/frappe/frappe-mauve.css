@@ -6,98 +6,124 @@
  */
 
 :root {
-  --background-primary: #232634;
-  --background-secondary: #292c3c;
-  --background-secondary-lighter: #303446;
-  --background-secondary-alt: #414559;
-  --background-tertiary: #303446;
+  /* Surfaces */
   --background-channel-header: #292c3c;
-  --guild-list-foreground: #303446;
-  --background-header-secondary: #232634;
   --background-header-primary: #303446;
-  --background-textarea: #292c3c;
   --background-header-primary-hover: #414559;
-  --text-tertiary-secondary: #737994;
-  --text-tertiary-muted: #838ba7;
-  --text-tertiary: #a5adce;
-  --text-primary-muted: #949cbb;
-  --text-chat-muted: #949cbb;
-  --text-secondary: #b5bfe2;
-  --text-chat: #c6d0f5;
-  --text-primary: #c6d0f5;
-  --panel-control-bg: #232634;
-  --panel-control-border: #838ba7;
-  --panel-control-divider: #737994;
-  --panel-control-highlight: #737994;
+  --background-header-secondary: #232634;
+  --background-modifier-accent: #414559;
   --background-modifier-hover: #414559cc;
   --background-modifier-selected: #303446;
-  --background-modifier-accent: #414559;
-  --background-modifier-accent-focus: #51576d;
-  --control-button-normal-bg: transparent;
-  --control-button-hover-bg: #292c3c;
-  --control-button-active-bg: #232634;
-  --control-button-danger-text: #e78284;
-  --control-button-danger-hover-bg: #e78284;
-  --brand-primary: #ca9ee6;
-  --brand-secondary: #ca9ee6;
-  --brand-primary-light: #d6b3eb;
-  --brand-primary-fill: #303446;
-  --status-online: #a6d189;
-  --status-idle: #e5c890;
-  --status-dnd: #ea999c;
-  --status-offline: #838ba7;
-  --status-danger: #e78284;
-  --text-warning: #e5c890;
-  --plutonium-icon: #ef9f76;
+  --background-primary: #232634;
+  --background-secondary: #292c3c;
+  --background-secondary-alt: #414559;
+  --background-secondary-lighter: #303446;
+  --background-tertiary: #303446;
+  --bg-code: #303446;
+  --bg-code-block: #292c3c;
+  --guild-list-foreground: #303446;
+  --panel-control-bg: #232634;
+
+  /* Text */
+  --text-chat: #c6d0f5;
+  --text-chat-muted: #949cbb;
   --text-link: #8caaee;
   --text-on-brand-primary: #303446;
-  --text-code: #b5bfe2;
+  --text-primary: #c6d0f5;
+  --text-primary-muted: #949cbb;
+  --text-secondary: #b5bfe2;
   --text-selection: #949cbb59;
-  --text-feedback-positive: #a6d189;
-  --markup-mention-border: #6268804d;
-  --markup-everyone-text: #ca9ee6;
-  --markup-everyone-fill: #ca9ee62e;
-  --markup-everyone-border: #ca9ee64d;
-  --markup-here-text: #e5c890;
-  --markup-here-fill: #e5c8902e;
-  --markup-here-border: #e5c8904d;
-  --button-primary-fill: #a6d189;
-  --button-primary-active-fill: #98ca76;
-  --button-primary-text: #c6d0f5;
-  --button-secondary-fill: #c6d0f51a;
-  --button-secondary-active-fill: #c6d0f526;
-  --button-secondary-text: #c6d0f5;
-  --button-danger-fill: #ea999c;
+  --text-tertiary: #a5adce;
+  --text-tertiary-muted: #838ba7;
+  --text-tertiary-secondary: #737994;
+  --text-warning: #e5c890;
+
+  /* Brand & Accents */
+  --accent-purple: #ca9ee6;
+  --brand-primary: #ca9ee6;
+  --brand-primary-fill: #303446;
+  --brand-primary-light: #d6b3eb;
+  --brand-secondary: #ca9ee6;
+  --plutonium-icon: #ef9f76;
+
+  /* Status Indicators */
+  --status-danger: #e78284;
+  --status-dnd: #ea999c;
+  --status-idle: #e5c890;
+  --status-offline: #838ba7;
+  --status-online: #a6d189;
+
+  /* Buttons */
   --button-danger-active-fill: #e78284;
-  --button-danger-text: #303446;
+  --button-danger-fill: #ea999c;
+  --button-danger-outline-active-fill: #e36d6f;
   --button-danger-outline-border: 1px solid #eb999a;
   --button-danger-outline-text: #303446;
-  --button-danger-outline-active-fill: #e36d6f;
+  --button-danger-text: #303446;
   --button-ghost-text: #c6d0f5;
   --button-inverted-fill: #303446;
   --button-inverted-text: #c6d0f5;
+  --button-outline-active-border: 1px solid #c6d0f566;
+  --button-outline-active-fill: #c6d0f526;
   --button-outline-border: 1px solid #c6d0f54d;
   --button-outline-text: #c6d0f5;
-  --button-outline-active-fill: #c6d0f526;
-  --button-outline-active-border: 1px solid #c6d0f566;
-  --bg-code: #303446;
-  --bg-code-block: #292c3c;
+  --button-primary-active-fill: #98ca76;
+  --button-primary-fill: #a6d189;
+  --button-primary-text: #c6d0f5;
+  --button-secondary-active-fill: #c6d0f526;
+  --button-secondary-fill: #c6d0f51a;
+  --button-secondary-text: #c6d0f5;
+  --control-button-active-bg: #232634;
+  --control-button-danger-hover-bg: #e78284;
+  --control-button-danger-text: #e78284;
+  --control-button-hover-bg: #292c3c;
+  --control-button-normal-bg: transparent;
+
+  /* Borders & Focus */
+  --background-modifier-accent-focus: #51576d;
   --border-color: #414559;
-  --border-color-hover: #51576d;
   --border-color-focus: #ca9ee6;
-  --accent-purple: #ca9ee6;
+  --border-color-hover: #51576d;
+  --focus-primary: #99d1db;
+  --panel-control-border: #838ba7;
+  --shadow-lg: 0 4px 8px #23263426, 0 2px 4px #2326341a;
+  --shadow-md: 0 2px 4px #23263426, 0 1px 2px #2326341a;
+  --shadow-sm: 0 1px 2px #2326341a;
+  --shadow-xl: 0 10px 20px #23263426, 0 4px 8px #2326341a;
+
+  /* Alerts & Callouts */
+  --alert-caution-color: #ea999c;
+  --alert-important-color: #ca9ee6;
   --alert-note-color: #99d1db;
   --alert-tip-color: #a6d189;
-  --alert-important-color: #ca9ee6;
   --alert-warning-color: #ef9f76;
-  --alert-caution-color: #ea999c;
-  --shadow-sm: 0 1px 2px #2326341a;
-  --shadow-md: 0 2px 4px #23263426, 0 1px 2px #2326341a;
-  --shadow-lg: 0 4px 8px #23263426, 0 2px 4px #2326341a;
-  --shadow-xl: 0 10px 20px #23263426, 0 4px 8px #2326341a;
+
+  /* Markup & Mentions */
+  --markup-everyone-border: #ca9ee64d;
+  --markup-everyone-fill: #ca9ee62e;
+  --markup-everyone-text: #ca9ee6;
+  --markup-here-border: #e5c8904d;
+  --markup-here-fill: #e5c8902e;
+  --markup-here-text: #e5c890;
+  --markup-mention-border: #6268804d;
   --spoiler-overlay-color: #23263433;
   --spoiler-overlay-hover-color: #2326344d;
+
+  /* Code & Terminal */
+  --text-code: #b5bfe2;
+
+  /* Tables */
+
+  /* Messages */
+
+  /* Forms */
+  --background-textarea: #292c3c;
+
+  /* Scrolling */
   --scrollbar-thumb-bg: #73799466;
   --scrollbar-thumb-bg-hover: #737994b3;
-  --focus-primary: #99d1db;
+
+  /* Other */
+  --panel-control-divider: #737994;
+  --panel-control-highlight: #737994;
 }
