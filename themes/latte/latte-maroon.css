@@ -1,217 +1,129 @@
+/**
+ * @name Catppuccin Latte Maroon
+ * @description Soothing pastel theme for Fluxer
+ * @author Catppuccin Org
+ * @tags catppuccin
+ */
+
 :root {
-	--background-primary: #dce0e8;
-	--background-secondary: #e6e9ef;
-	--background-secondary-lighter: #eff1f5;
-	--background-secondary-alt: #ccd0da;
-	--background-tertiary: #eff1f5;
-	--background-channel-header: #e6e9ef;
-	--guild-list-foreground: #eff1f5;
-	--background-header-secondary: #dce0e8;
-	--background-header-primary: #eff1f5;
-	--background-textarea: #e6e9ef;
-	--background-header-primary-hover: #ccd0da;
-	--text-tertiary-secondary: #9ca0b0;
-	--text-tertiary-muted: #8c8fa1;
-	--text-tertiary: #6c6f85;
-	--text-primary-muted: #7c7f93;
-	--text-chat-muted: #7c7f93;
-	--text-secondary: #5c5f77;
-	--text-chat: #4c4f69;
-	--text-primary: #4c4f69;
-	--panel-control-bg: #dce0e8;
-	--panel-control-border: #8c8fa1;
-	--panel-control-divider: #9ca0b0;
-	--panel-control-highlight: #9ca0b0;
-	--background-modifier-hover: #ccd0dacc;
-	--background-modifier-selected: #eff1f5;
-	--background-modifier-accent: #ccd0da;
-	--background-modifier-accent-focus: #bcc0cc;
-	--control-button-normal-bg: transparent;
-	--control-button-hover-bg: #e6e9ef;
-	--control-button-active-bg: #dce0e8;
-	--control-button-danger-text: #d20f39;
-	--control-button-danger-hover-bg: #d20f39;
-	--brand-primary: #e64553;
-	--brand-secondary: #e64553;
-	--brand-primary-light: #e95d68;
-	--brand-primary-fill: #eff1f5;
-	--status-online: #40a02b;
-	--status-idle: #df8e1d;
-	--status-dnd: #e64553;
-	--status-offline: #8c8fa1;
-	--status-danger: #d20f39;
-	--text-warning: #df8e1d;
-	--plutonium-icon: #fe640b;
-	--text-link: #1e66f5;
-	--text-on-brand-primary: #eff1f5;
-	--text-code: #5c5f77;
-	--text-selection: #7c7f9359;
-	--text-feedback-positive: #40a02b;
-	--markup-mention-border: #acb0be4d;
-	--markup-everyone-text: #8839ef;
-	--markup-everyone-fill: #8839ef2e;
-	--markup-everyone-border: #8839ef4d;
-	--markup-here-text: #df8e1d;
-	--markup-here-fill: #df8e1d2e;
-	--markup-here-border: #df8e1d4d;
-	--button-primary-fill: #40a02b;
-	--button-primary-active-fill: #398c26;
-	--button-primary-text: #4c4f69;
-	--button-secondary-fill: #4c4f691a;
-	--button-secondary-active-fill: #4c4f6926;
-	--button-secondary-text: #4c4f69;
-	--button-danger-fill: #e64553;
-	--button-danger-active-fill: #d20f39;
-	--button-danger-text: #eff1f5;
-	--button-danger-outline-border: 1px solid #eb1140;
-	--button-danger-outline-text: #eff1f5;
-	--button-danger-outline-active-fill: #bb0d33;
-	--button-ghost-text: #4c4f69;
-	--button-inverted-fill: #eff1f5;
-	--button-inverted-text: #4c4f69;
-	--button-outline-border: 1px solid #4c4f694d;
-	--button-outline-text: #4c4f69;
-	--button-outline-active-fill: #4c4f6926;
-	--button-outline-active-border: 1px solid #4c4f6966;
-	--bg-code: #eff1f5;
-	--bg-code-block: #e6e9ef;
-	--border-color: #ccd0da;
-	--border-color-hover: #bcc0cc;
-	--border-color-focus: #e64553;
-	--accent-purple: #8839ef;
-	--alert-note-color: #04a5e5;
-	--alert-tip-color: #40a02b;
-	--alert-important-color: #8839ef;
-	--alert-warning-color: #fe640b;
-	--alert-caution-color: #e64553;
-	--shadow-sm: 0 1px 2px #dce0e81a;
-	--shadow-md: 0 2px 4px #dce0e826, 0 1px 2px #dce0e81a;
-	--shadow-lg: 0 4px 8px #dce0e826, 0 2px 4px #dce0e81a;
-	--shadow-xl: 0 10px 20px #dce0e826, 0 4px 8px #dce0e81a;
-	--spoiler-overlay-color: #dce0e833;
-	--spoiler-overlay-hover-color: #dce0e84d;
-	--scrollbar-thumb-bg: #9ca0b066;
-	--scrollbar-thumb-bg-hover: #9ca0b0b3;
-	--focus-primary: #04a5e5;
-}
+  /* Surfaces */
+  --background-channel-header: #e6e9ef;
+  --background-header-primary: #eff1f5;
+  --background-header-primary-hover: #ccd0da;
+  --background-header-secondary: #dce0e8;
+  --background-modifier-accent: #ccd0da;
+  --background-modifier-hover: #ccd0dacc;
+  --background-modifier-selected: #eff1f5;
+  --background-primary: #dce0e8;
+  --background-secondary: #e6e9ef;
+  --background-secondary-alt: #ccd0da;
+  --background-secondary-lighter: #eff1f5;
+  --background-tertiary: #eff1f5;
+  --bg-code: #eff1f5;
+  --bg-code-block: #e6e9ef;
+  --guild-list-foreground: #eff1f5;
+  --panel-control-bg: #dce0e8;
 
-/* Code */
+  /* Text */
+  --text-chat: #4c4f69;
+  --text-chat-muted: #7c7f93;
+  --text-link: #1e66f5;
+  --text-on-brand-primary: #eff1f5;
+  --text-primary: #4c4f69;
+  --text-primary-muted: #7c7f93;
+  --text-secondary: #5c5f77;
+  --text-selection: #7c7f9359;
+  --text-tertiary: #6c6f85;
+  --text-tertiary-muted: #8c8fa1;
+  --text-tertiary-secondary: #9ca0b0;
+  --text-warning: #df8e1d;
 
-.hljs {
-  color: #5c5f77;
-  background: #dce0e8;
-}
-.hljs-doctag,
-.hljs-keyword,
-.hljs-meta .hljs-keyword,
-.hljs-template-tag,
-.hljs-template-variable,
-.hljs-type,
-.hljs-variable.language_ {
-  color: #d20f39;
-}
-.hljs-title,
-.hljs-title.class_,
-.hljs-title.class_.inherited__,
-.hljs-title.function_ {
-  color: #8839ef;
-}
-.hljs-attr,
-.hljs-attribute,
-.hljs-literal,
-.hljs-meta,
-.hljs-number,
-.hljs-operator,
-.hljs-variable,
-.hljs-selector-attr,
-.hljs-selector-class,
-.hljs-selector-id {
-  color: #1e66f5;
-}
-.hljs-regexp,
-.hljs-string,
-.hljs-meta .hljs-string {
-  color: #04a5e5;
-}
-.hljs-built_in,
-.hljs-symbol {
-  color: #fe640b;
-}
-.hljs-comment,
-.hljs-code,
-.hljs-formula {
-  color: #7c7f93;
-}
-.hljs-name,
-.hljs-quote,
-.hljs-selector-tag,
-.hljs-selector-pseudo {
-  color: #40a02b;
-}
-.hljs-subst {
-  color: #6c6f85;
-}
-.hljs-section {
-  color: #1e66f5;
-}
-.hljs-bullet {
-  color: #df8e1d;
-}
-.hljs-emphasis {
-  color: #6c6f85;
-}
-.hljs-strong {
-  color: #6c6f85;
-}
-.hljs-addition {
-  color: #40a02b;
-  background-color: #40a02b26;
-}
-.hljs-deletion {
-  color: #d20f39;
-  background-color: #d20f3926;
-}
+  /* Brand & Accents */
+  --accent-purple: #8839ef;
+  --brand-primary: #e64553;
+  --brand-primary-fill: #eff1f5;
+  --brand-primary-light: #e95d68;
+  --brand-secondary: #e64553;
+  --plutonium-icon: #fe640b;
 
-[class*="VoiceCallView.module__root"] {
-  background-color: #dce0e8;
-}
+  /* Status Indicators */
+  --status-danger: #d20f39;
+  --status-dnd: #e64553;
+  --status-idle: #df8e1d;
+  --status-offline: #8c8fa1;
+  --status-online: #40a02b;
 
-[class*="MobileDownloadNagbar.module__platformIcon"],
-[class*="Divider.module__unreadBadge"],
-[class*="Messages.module__newMessagesBarText"],
-[class*="Messages.module__newMessagesBarAction"],
-[class*="ToggleButton.module__active"],
-[class^="PricingCard.module__cardPricePopular"],
-[class^="PricingCard.module__cardTitlePopular"],
-[class^="PricingCard.module__cardPeriodPopular"],
-[class^="PricingCard.module__badge"] {
-  color: #eff1f5;
-}
+  /* Buttons */
+  --button-danger-active-fill: #d20f39;
+  --button-danger-fill: #e64553;
+  --button-danger-outline-active-fill: #bb0d33;
+  --button-danger-outline-border: 1px solid #eb1140;
+  --button-danger-outline-text: #eff1f5;
+  --button-danger-text: #eff1f5;
+  --button-ghost-text: #4c4f69;
+  --button-inverted-fill: #eff1f5;
+  --button-inverted-text: #4c4f69;
+  --button-outline-active-border: 1px solid #4c4f6966;
+  --button-outline-active-fill: #4c4f6926;
+  --button-outline-border: 1px solid #4c4f694d;
+  --button-outline-text: #4c4f69;
+  --button-primary-active-fill: #398c26;
+  --button-primary-fill: #40a02b;
+  --button-primary-text: #4c4f69;
+  --button-secondary-active-fill: #4c4f6926;
+  --button-secondary-fill: #4c4f691a;
+  --button-secondary-text: #4c4f69;
+  --control-button-active-bg: #dce0e8;
+  --control-button-danger-hover-bg: #d20f39;
+  --control-button-danger-text: #d20f39;
+  --control-button-hover-bg: #e6e9ef;
+  --control-button-normal-bg: transparent;
 
-[class*="RadioGroup.module__group"] {
-  --radio-dot-fill: #eff1f5;
-}
+  /* Borders & Focus */
+  --background-modifier-accent-focus: #bcc0cc;
+  --border-color: #ccd0da;
+  --border-color-focus: #e64553;
+  --border-color-hover: #bcc0cc;
+  --focus-primary: #04a5e5;
+  --panel-control-border: #8c8fa1;
+  --shadow-lg: 0 4px 8px #dce0e826, 0 2px 4px #dce0e81a;
+  --shadow-md: 0 2px 4px #dce0e826, 0 1px 2px #dce0e81a;
+  --shadow-sm: 0 1px 2px #dce0e81a;
+  --shadow-xl: 0 10px 20px #dce0e826, 0 4px 8px #dce0e81a;
 
-[class*="Switch.module__switchThumb"],
-[class^="PricingCard.module__popularBadge"] {
-  background-color: #eff1f5;
-}
+  /* Alerts & Callouts */
+  --alert-caution-color: #e64553;
+  --alert-important-color: #8839ef;
+  --alert-note-color: #04a5e5;
+  --alert-tip-color: #40a02b;
+  --alert-warning-color: #fe640b;
 
-[class*="NativeTitlebar.module__closeButton"]:hover {
-  background-color: #d20f39;
-  color: #eff1f5;
-}
+  /* Markup & Mentions */
+  --markup-everyone-border: #8839ef4d;
+  --markup-everyone-fill: #8839ef2e;
+  --markup-everyone-text: #8839ef;
+  --markup-here-border: #df8e1d4d;
+  --markup-here-fill: #df8e1d2e;
+  --markup-here-text: #df8e1d;
+  --markup-mention-border: #acb0be4d;
+  --spoiler-overlay-color: #dce0e833;
+  --spoiler-overlay-hover-color: #dce0e84d;
 
-[class*="ScrollIndicatorOverlay.module__indicator"],
-[class*="ScrollIndicatorOverlay.module__indicatorBrand"] {
-  background-color: #ccd0da;
-  color: #4c4f69;
-}
+  /* Code & Terminal */
+  --text-code: #5c5f77;
 
-[class*="module__clickableItemSelected"] [class*="clickableItemIcon"] {
-  color: #eff1f5 !important;
-}
+  /* Tables */
 
-[class^="PlutoniumContent.module__icon"] {
-  color: #fe640b;
+  /* Messages */
+
+  /* Forms */
+  --background-textarea: #e6e9ef;
+
+  /* Scrolling */
+  --scrollbar-thumb-bg: #9ca0b066;
+  --scrollbar-thumb-bg-hover: #9ca0b0b3;
+
+  /* Other */
+  --panel-control-divider: #9ca0b0;
+  --panel-control-highlight: #9ca0b0;
 }
