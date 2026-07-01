@@ -8,6 +8,14 @@ whiskers:
   hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 {%- set accent = flavor.colors[accent] -%}
+
+/**
+ * @name Catppuccin {{ flavor.name }} {{ accent.name }}
+ * @description Soothing pastel theme for Fluxer
+ * @author Catppuccin Org
+ * @tags catppuccin
+ */
+
 :root {
 	--background-primary: {{ crust.hex }};
 	--background-secondary: {{ mantle.hex }};
